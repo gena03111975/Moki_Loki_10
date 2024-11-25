@@ -1,0 +1,232 @@
+
+291  [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+293  [main] DEBUG org.mortbay.log - Container Server@753432a2 + org.mortbay.thread.QueuedThreadPool@45815ffc as threadpool
+296  [main] DEBUG org.mortbay.log - Container Server@753432a2 + DelayableSocketConnector@0.0.0.0:8080 as connector
+304  [main] DEBUG org.mortbay.log - Container Server@753432a2 + org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+304  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} + ServletHandler@119020fb as handler
+307  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933 as servlet
+307  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933,[/]) as servletMapping
+311  [main] DEBUG org.mortbay.log - filterNameMap=null
+311  [main] DEBUG org.mortbay.log - pathFilters=null
+311  [main] DEBUG org.mortbay.log - servletFilterMap=null
+311  [main] DEBUG org.mortbay.log - servletPathMap={/=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933}
+311  [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933}
+312  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb - com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933 as servlet
+312  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb - (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933,[/]) as servletMapping
+312  [main] DEBUG org.mortbay.log - Container Server@753432a2 - org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+312  [main] DEBUG org.mortbay.log - Container Server@753432a2 + HandlerCollection@37ddb69a as handler
+312  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933 as servlet
+312  [main] DEBUG org.mortbay.log - Container ServletHandler@119020fb + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-832292933,[/]) as servletMapping
+312  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} + ServletHandler@119020fb as handler
+313  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+313  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+313  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+313  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@349c1daf{/,null} as handler
+313  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@349c1daf{/,null} + ServletHandler@dfddc9a as handler
+314  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + org.mortbay.jetty.servlet.DefaultServlet-593103894 as servlet
+314  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + (S=org.mortbay.jetty.servlet.DefaultServlet-593103894,[/__files/*]) as servletMapping
+314  [main] DEBUG org.mortbay.log - filterNameMap=null
+314  [main] DEBUG org.mortbay.log - pathFilters=null
+314  [main] DEBUG org.mortbay.log - servletFilterMap=null
+314  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-593103894}
+314  [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-593103894=org.mortbay.jetty.servlet.DefaultServlet-593103894}
+314  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683 as servlet
+314  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683,[/]) as servletMapping
+315  [main] DEBUG org.mortbay.log - filterNameMap=null
+315  [main] DEBUG org.mortbay.log - pathFilters=null
+315  [main] DEBUG org.mortbay.log - servletFilterMap=null
+315  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-593103894, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683}
+315  [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683, org.mortbay.jetty.servlet.DefaultServlet-593103894=org.mortbay.jetty.servlet.DefaultServlet-593103894}
+327  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245 as filter
+328  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + (F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245,[/__files/*],[],2) as filterMapping
+328  [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245}
+328  [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245,[/__files/*],[],2)]
+329  [main] DEBUG org.mortbay.log - servletFilterMap=null
+329  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-593103894, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683}
+329  [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683, org.mortbay.jetty.servlet.DefaultServlet-593103894=org.mortbay.jetty.servlet.DefaultServlet-593103894}
+329  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-1045731788 as filter
+329  [main] DEBUG org.mortbay.log - Container ServletHandler@dfddc9a + (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-1045731788,[/__files/*],[],15) as filterMapping
+329  [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-1045731788=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-1045731788}
+329  [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-1340848245,[/__files/*],[],2), (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-1045731788,[/__files/*],[],15)]
+329  [main] DEBUG org.mortbay.log - servletFilterMap=null
+329  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-593103894, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683}
+329  [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1803093683, org.mortbay.jetty.servlet.DefaultServlet-593103894=org.mortbay.jetty.servlet.DefaultServlet-593103894}
+330  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@710b18a6{/__admin,null} as handler
+330  [main] DEBUG org.mortbay.log - Container HandlerCollection@37ddb69a + org.mortbay.jetty.servlet.Context@349c1daf{/,null} as handler
+342  [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+352  [main] INFO  a.a.a.FifteenDaysOfWeatherAlarmsTest - Тест код ответ 401 запущен
+352  [main] DEBUG a.a.a.FifteenDaysOfWeatherAlarmsTest - Формируем мок GET /alarms/v1/15day//290421
+623  [main] DEBUG a.a.a.FifteenDaysOfWeatherAlarmsTest - http клиент создан
+652  [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+775  [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+783  [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+785  [main] INFO  a.a.current.CurrentConditionsTest - Тест код ответ 200 запущен
+785  [main] DEBUG a.a.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+799  [main] DEBUG a.a.current.CurrentConditionsTest - http-клиент создан
+819  [main] INFO  a.a.current.CurrentConditionsTest - Тест код ответ 401 запущен
+819  [main] DEBUG a.a.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+827  [main] DEBUG a.a.current.CurrentConditionsTest - http клиент создан
+834  [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+946  [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+952  [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+953  [main] INFO  a.a.current.HistoricalSixHourTest - Тест код ответ 200 запущен
+953  [main] DEBUG a.a.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+967  [main] DEBUG a.a.current.HistoricalSixHourTest - http-клиент создан
+982  [main] INFO  a.a.current.HistoricalSixHourTest - Тест код ответ 401 запущен
+982  [main] DEBUG a.a.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+994  [main] DEBUG a.a.current.HistoricalSixHourTest - http клиент создан
+1001 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1116 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1124 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1125 [main] INFO  a.a.c.HistoricalTwentyFourHoursTest - Тест код ответ 200 запущен
+1125 [main] DEBUG a.a.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+1134 [main] DEBUG a.a.c.HistoricalTwentyFourHoursTest - http-клиент создан
+1144 [main] INFO  a.a.c.HistoricalTwentyFourHoursTest - Тест код ответ 401 запущен
+1144 [main] DEBUG a.a.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+1151 [main] DEBUG a.a.c.HistoricalTwentyFourHoursTest - http клиент создан
+1157 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1272 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1280 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1281 [main] INFO  a.a.indices.FiveDaysForAGroupTest - Тест код ответ 200 запущен
+1283 [main] DEBUG a.a.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+1294 [main] DEBUG a.a.indices.FiveDaysForAGroupTest - http-клиент создан
+1303 [main] INFO  a.a.indices.FiveDaysForAGroupTest - Тест код ответ 401 запущен
+1304 [main] DEBUG a.a.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+1310 [main] DEBUG a.a.indices.FiveDaysForAGroupTest - http клиент создан
+1315 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1427 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1434 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1435 [main] INFO  a.a.i.FiveDaysForAllIndicesTest - Тест код ответ 200 запущен
+1435 [main] DEBUG a.a.i.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+1443 [main] DEBUG a.a.i.FiveDaysForAllIndicesTest - http-клиент создан
+1453 [main] INFO  a.a.i.FiveDaysForAllIndicesTest - Тест код ответ 401 запущен
+1453 [main] DEBUG a.a.i.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+1459 [main] DEBUG a.a.i.FiveDaysForAllIndicesTest - http клиент создан
+1464 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1568 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1572 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1573 [main] INFO  a.a.i.FiveDaysForSpecificIndexTest - Тест код ответ 200 запущен
+1573 [main] DEBUG a.a.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+1581 [main] DEBUG a.a.i.FiveDaysForSpecificIndexTest - http-клиент создан
+1591 [main] INFO  a.a.i.FiveDaysForSpecificIndexTest - Тест код ответ 401 запущен
+1591 [main] DEBUG a.a.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+1599 [main] DEBUG a.a.i.FiveDaysForSpecificIndexTest - http клиент создан
+1605 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1709 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1716 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1717 [main] INFO  a.a.i.ListDailyGroupIndicesTest - Тест код ответ 200 запущен
+1719 [main] DEBUG a.a.i.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+1725 [main] DEBUG a.a.i.ListDailyGroupIndicesTest - http-клиент создан
+1732 [main] INFO  a.a.i.ListDailyGroupIndicesTest - Тест код ответ 401 запущен
+1732 [main] DEBUG a.a.i.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+1737 [main] DEBUG a.a.i.ListDailyGroupIndicesTest - http клиент создан
+1742 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1848 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1851 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1852 [main] INFO  a.a.indices.ListDailyIndicesTest - Тест код ответ 200 запущен
+1852 [main] DEBUG a.a.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+1861 [main] DEBUG a.a.indices.ListDailyIndicesTest - http-клиент создан
+1871 [main] INFO  a.a.indices.ListDailyIndicesTest - Тест код ответ 401 запущен
+1871 [main] DEBUG a.a.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+1876 [main] DEBUG a.a.indices.ListDailyIndicesTest - http клиент создан
+1882 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+1989 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+1994 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+1995 [main] INFO  a.a.i.ListInASpecificGroupTest - Тест код ответ 200 запущен
+1995 [main] DEBUG a.a.i.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+2002 [main] DEBUG a.a.i.ListInASpecificGroupTest - http-клиент создан
+2009 [main] INFO  a.a.i.ListInASpecificGroupTest - Тест код ответ 401 запущен
+2009 [main] DEBUG a.a.i.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+2014 [main] DEBUG a.a.i.ListInASpecificGroupTest - http клиент создан
+2018 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2128 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2135 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2136 [main] INFO  a.a.i.OneDayValuesAllIndicesTest - Тест код ответ 200 запущен
+2137 [main] DEBUG a.a.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+2143 [main] DEBUG a.a.i.OneDayValuesAllIndicesTest - http-клиент создан
+2151 [main] INFO  a.a.i.OneDayValuesAllIndicesTest - Тест код ответ 401 запущен
+2151 [main] DEBUG a.a.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+2156 [main] DEBUG a.a.i.OneDayValuesAllIndicesTest - http клиент создан
+2166 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2268 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2274 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2275 [main] INFO  a.a.indices.OneDayValuesGroupTest - Тест код ответ 200 запущен
+2276 [main] DEBUG a.a.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+2282 [main] DEBUG a.a.indices.OneDayValuesGroupTest - http-клиент создан
+2288 [main] INFO  a.a.indices.OneDayValuesGroupTest - Тест код ответ 401 запущен
+2288 [main] DEBUG a.a.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+2293 [main] DEBUG a.a.indices.OneDayValuesGroupTest - http клиент создан
+2298 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2410 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2413 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2414 [main] INFO  a.a.i.OneDayValuesSpecificIndexTest - Тест код ответ 200 запущен
+2414 [main] DEBUG a.a.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+2419 [main] DEBUG a.a.i.OneDayValuesSpecificIndexTest - http-клиент создан
+2425 [main] INFO  a.a.i.OneDayValuesSpecificIndexTest - Тест код ответ 401 запущен
+2426 [main] DEBUG a.a.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+2432 [main] DEBUG a.a.i.OneDayValuesSpecificIndexTest - http клиент создан
+2436 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2548 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2555 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2557 [main] INFO  a.a.location.AutoCompleteSearchTest - Тест код ответ 200 запущен
+2558 [main] DEBUG a.a.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+2567 [main] DEBUG a.a.location.AutoCompleteSearchTest - http-клиент создан
+2573 [main] INFO  a.a.location.AutoCompleteSearchTest - Тест код ответ 401 запущен
+2574 [main] DEBUG a.a.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+2578 [main] DEBUG a.a.location.AutoCompleteSearchTest - http клиент создан
+2584 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2691 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2695 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2697 [main] INFO  a.a.location.ListAdminAreaTest - Тест код ответ 200 запущен
+2698 [main] DEBUG a.a.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+2704 [main] DEBUG a.a.location.ListAdminAreaTest - http-клиент создан
+2712 [main] INFO  a.a.location.ListAdminAreaTest - Тест код ответ 401 запущен
+2712 [main] DEBUG a.a.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+2718 [main] DEBUG a.a.location.ListAdminAreaTest - http клиент создан
+2724 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2832 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2838 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2839 [main] INFO  a.a.location.ListCountryTest - Тест код ответ 200 запущен
+2839 [main] DEBUG a.a.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+2845 [main] DEBUG a.a.location.ListCountryTest - http-клиент создан
+2851 [main] INFO  a.a.location.ListCountryTest - Тест код ответ 401 запущен
+2851 [main] DEBUG a.a.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+2857 [main] DEBUG a.a.location.ListCountryTest - http клиент создан
+2861 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+2972 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+2975 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+2976 [main] INFO  a.a.location.ListRegionsTest - Тест код ответ 200 запущен
+2976 [main] DEBUG a.a.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+2981 [main] DEBUG a.a.location.ListRegionsTest - http-клиент создан
+2987 [main] INFO  a.a.location.ListRegionsTest - Тест код ответ 401 запущен
+2987 [main] DEBUG a.a.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+2993 [main] DEBUG a.a.location.ListRegionsTest - http клиент создан
+2998 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+3112 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+3114 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+3115 [main] INFO  a.a.l.LocationKeyNeighborsTest - Тест код ответ 200 запущен
+3116 [main] DEBUG a.a.l.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+3129 [main] DEBUG a.a.l.LocationKeyNeighborsTest - http-клиент создан
+3142 [main] INFO  a.a.l.LocationKeyNeighborsTest - Тест код ответ 401 запущен
+3142 [main] DEBUG a.a.l.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+3147 [main] DEBUG a.a.l.LocationKeyNeighborsTest - http клиент создан
+3152 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+3254 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+3258 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+3259 [main] INFO  a.a.location.LocationKeySearchTest - Тест код ответ 200 запущен
+3259 [main] DEBUG a.a.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+3265 [main] DEBUG a.a.location.LocationKeySearchTest - http-клиент создан
+3272 [main] INFO  a.a.location.LocationKeySearchTest - Тест код ответ 401 запущен
+3272 [main] DEBUG a.a.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+3279 [main] DEBUG a.a.location.LocationKeySearchTest - http клиент создан
+3284 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+3394 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
+3399 [main] INFO  autoTest.accuweather.AbstractTest - Start WireMockServer on port 8080
+3400 [main] INFO  a.a.location.TextSearchCityTest - Тест код ответ 200 запущен
+3400 [main] DEBUG a.a.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+3405 [main] DEBUG a.a.location.TextSearchCityTest - http-клиент создан
+3411 [main] INFO  a.a.location.TextSearchCityTest - Тест код ответ 401 запущен
+3411 [main] DEBUG a.a.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+3415 [main] DEBUG a.a.location.TextSearchCityTest - http клиент создан
+3419 [main] DEBUG autoTest.accuweather.AbstractTest - convertResponseToString method call
+3535 [main] INFO  autoTest.accuweather.AbstractTest - Stop WireMockServer
